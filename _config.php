@@ -39,4 +39,3 @@ $conn->query('SET lc_time_names = pt_BR');
  * Define o fuso horário (opcional + recomendado).
  */
 date_default_timezone_set('America/Sao_Paulo');
-
