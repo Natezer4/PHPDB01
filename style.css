@@ -33,7 +33,7 @@ a {
 }
 
 a:hover {
-    color: orangered;
+    color: red;
     text-decoration: underline;
 }
 
@@ -54,7 +54,6 @@ footer {
 body {
     background-color: rgb(170, 170, 170);
     background-attachment: fixed;
-    background-image: url('/img/gray_background_01.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,9 +71,9 @@ body {
     height: 100%;
     /* Limita largura e centraliza a página em larguras maiores. */
     width: 100%;
-    max-width: 1080px;
+    
     min-width: 280px;
-    margin: auto;
+   
 }
 
 /**
@@ -85,7 +84,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: rgba(255, 255, 255, .7);
+    background: 	#2F4F4F;
 }
 
 /* Logotipo usando "Font Awesome". */
@@ -98,6 +97,7 @@ body {
 }
 
 .wrap>header h1 {
+    color: white;
     margin: 0;
     margin-left: 1rem;
     text-align: center;
@@ -117,7 +117,7 @@ body {
  */
 
 .wrap>nav {
-    background: rgba(0, 0, 0, .75);
+    background: #5F9EA0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -136,8 +136,8 @@ body {
 }
 
 .wrap>nav a:hover {
-    color: black;
-    background: rgb(255, 255, 255);
+    color: #2F4F4F;
+   
 }
 
 .wrap>nav span {
@@ -161,7 +161,7 @@ body {
  */
 
 .wrap>footer {
-    background: rgba(0, 0, 0, .75);
+    background: #2F4F4F;
     padding: 1px 0;
     color: white;
     display: flex;
@@ -177,7 +177,7 @@ body {
 }
 
 .wrap>footer a:hover {
-    background: white;
+    
     color: black;
 }
 
